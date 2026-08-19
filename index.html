@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divaranan Balachandran | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; }
+        .accent-text { color: #38bdf8; }
+        .card-bg { background-color: #1e293b; border: 1px solid #334155; }
+    </style>
+</head>
+<body class="p-6 md:p-12 max-w-5xl mx-auto space-y-12">
+
+    <!-- HERO SECTION -->
+    <section class="text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8 py-8 border-b border-slate-700">
+        <div>
+            <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20">#OPENTOWORK</span>
+            <h1 class="text-4xl md:text-5xl font-bold mt-4">Balachandren Divaranan</h1>
+            <p class="text-xl accent-text font-medium mt-2">Software Developer Intern | Mobile & IoT</p>
+            <p class="text-slate-400 mt-2 max-w-xl">HNDIT Undergraduate at SLIATE Trincomalee. Experienced in Flutter, C++, Python, and Full-Stack development.</p>
+            <div class="flex gap-4 mt-6 justify-center md:justify-start">
+                <a href="https://github.com/Divaranan" target="_blank" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl"><i class="fab font-bold fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl text-blue-400"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:divaranan.a@gmail.com" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl text-red-400"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section>
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-code accent-text"></i> Technical Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="card-bg p-4 rounded-xl text-center"><i class="fab fa-flutter text-3xl text-cyan-400 mb-2"></i><p class="font-semibold">Flutter / Dart</p></div>
+            <div class="card-bg p-4 rounded-xl text-center"><i class="fas fa-microchip text-3xl text-blue-400 mb-2"></i><p class="font-semibold">C++ / Arduino</p></div>
+            <div class="card-bg p-4 rounded-xl text-center"><i class="fab fa-python text-3xl text-yellow-400 mb-2"></i><p class="font-semibold">Python</p></div>
+            <div class="card-bg p-4 rounded-xl text-center"><i class="fas fa-database text-3xl text-emerald-400 mb-2"></i><p class="font-semibold">MySQL</p></div>
+        </div>
+    </section>
+
+    <!-- FEATURED PROJECT -->
+    <section>
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-project-diagram accent-text"></i> Featured Project</h2>
+        <div class="card-bg p-6 rounded-2xl space-y-4">
+            <div class="flex justify-between items-start flex-wrap gap-2">
+                <div>
+                    <h3 class="text-xl font-bold">SmartHerd — Smart Livestock Collar System</h3>
+                    <p class="text-slate-400 text-sm">Embedded IoT (ESP8266) & Flutter Android App</p>
+                </div>
+                <a href="https://github.com/Divaranan/Virtual-Fence-Monitoring-System" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-slate-900 font-bold px-4 py-2 rounded-lg text-sm flex items-center gap-2"><i class="fab fa-github"></i> View Repository</a>
+            </div>
+            <p class="text-slate-300">IoT collar system with real-time GPS tracking, polygon geofencing using ray-casting algorithm, and six-state cattle activity classification.</p>
+            <div class="flex flex-wrap gap-2 pt-2">
+                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">ESP8266</span>
+                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">Flutter</span>
+                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">NEO-6M GPS</span>
+                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">MPU6050</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-graduation-cap accent-text"></i> Education</h2>
+        <div class="card-bg p-6 rounded-2xl">
+            <h3 class="font-bold text-lg">Higher National Diploma in IT (HNDIT)</h3>
+            <p class="text-slate-400">SLIATE Trincomalee Campus (2023 – Present)</p>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <footer class="text-center py-8 border-t border-slate-700 text-slate-400 text-sm">
+        <p>📍 Trincomalee, Sri Lanka | 📞 +94 78 795 9526</p>
+    </footer>
+
+</body>
+</html>
