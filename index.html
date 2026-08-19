@@ -3,76 +3,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divaranan Balachandran | Portfolio</title>
+    <title>Balachandren Divaranan | Software Developer Intern</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; }
-        .accent-text { color: #38bdf8; }
-        .card-bg { background-color: #1e293b; border: 1px solid #334155; }
+        body { background-color: #0b0f19; color: #e2e8f0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .accent-green { color: #22c55e; }
+        .bg-accent-green { background-color: #22c55e; }
+        .card-dark { background-color: #111827; border: 1px solid #1f2937; }
+        .card-dark-hover:hover { border-color: #22c55e; transition: all 0.3s ease; }
     </style>
 </head>
-<body class="p-6 md:p-12 max-w-5xl mx-auto space-y-12">
+<body class="min-h-screen">
 
-    <!-- HERO SECTION -->
-    <section class="text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-8 py-8 border-b border-slate-700">
-        <div>
-            <span class="bg-emerald-500/10 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full border border-emerald-500/20">#OPENTOWORK</span>
-            <h1 class="text-4xl md:text-5xl font-bold mt-4">Balachandren Divaranan</h1>
-            <p class="text-xl accent-text font-medium mt-2">Software Developer Intern | Mobile & IoT</p>
-            <p class="text-slate-400 mt-2 max-w-xl">HNDIT Undergraduate at SLIATE Trincomalee. Experienced in Flutter, C++, Python, and Full-Stack development.</p>
-            <div class="flex gap-4 mt-6 justify-center md:justify-start">
-                <a href="https://github.com/Divaranan" target="_blank" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl"><i class="fab font-bold fa-github"></i></a>
-                <a href="https://linkedin.com" target="_blank" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl text-blue-400"><i class="fab fa-linkedin"></i></a>
-                <a href="mailto:divaranan.a@gmail.com" class="bg-slate-800 hover:bg-slate-700 p-3 rounded-full text-xl text-red-400"><i class="fas fa-envelope"></i></a>
-            </div>
-        </div>
-    </section>
-
-    <!-- SKILLS SECTION -->
-    <section>
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-code accent-text"></i> Technical Skills</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div class="card-bg p-4 rounded-xl text-center"><i class="fab fa-flutter text-3xl text-cyan-400 mb-2"></i><p class="font-semibold">Flutter / Dart</p></div>
-            <div class="card-bg p-4 rounded-xl text-center"><i class="fas fa-microchip text-3xl text-blue-400 mb-2"></i><p class="font-semibold">C++ / Arduino</p></div>
-            <div class="card-bg p-4 rounded-xl text-center"><i class="fab fa-python text-3xl text-yellow-400 mb-2"></i><p class="font-semibold">Python</p></div>
-            <div class="card-bg p-4 rounded-xl text-center"><i class="fas fa-database text-3xl text-emerald-400 mb-2"></i><p class="font-semibold">MySQL</p></div>
-        </div>
-    </section>
-
-    <!-- FEATURED PROJECT -->
-    <section>
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-project-diagram accent-text"></i> Featured Project</h2>
-        <div class="card-bg p-6 rounded-2xl space-y-4">
-            <div class="flex justify-between items-start flex-wrap gap-2">
-                <div>
-                    <h3 class="text-xl font-bold">SmartHerd — Smart Livestock Collar System</h3>
-                    <p class="text-slate-400 text-sm">Embedded IoT (ESP8266) & Flutter Android App</p>
+    <!-- HERO SECTION (Template Style) -->
+    <header class="bg-[#0f172a] py-16 px-6 md:px-16 border-b border-gray-800">
+        <div class="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
+            <div class="space-y-4 text-center md:text-left flex-1">
+                <p class="text-gray-400 text-lg">Hello! My name is</p>
+                <h1 class="text-4xl md:text-6xl font-extrabold accent-green">Balachandren Divaranan</h1>
+                <p class="text-xl md:text-2xl font-semibold text-gray-300">Software Developer Intern</p>
+                <p class="text-gray-400 max-w-xl text-base leading-relaxed">
+                    Motivated HND Information Technology undergraduate with hands-on experience spanning full-stack, mobile, IoT, and game development.
+                </p>
+                <div class="pt-4 flex flex-wrap justify-center md:justify-start gap-4">
+                    <a href="mailto:divaranan.a@gmail.com" class="bg-accent-green text-gray-900 font-bold px-6 py-3 rounded-lg hover:bg-green-600 transition flex items-center gap-2">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="https://github.com/Divaranan" target="_blank" class="bg-gray-800 text-white border border-gray-700 font-semibold px-6 py-3 rounded-lg hover:bg-gray-700 transition flex items-center gap-2">
+                        <i class="fab fa-github"></i> GitHub Profile
+                    </a>
                 </div>
-                <a href="https://github.com/Divaranan/Virtual-Fence-Monitoring-System" target="_blank" class="bg-sky-500 hover:bg-sky-600 text-slate-900 font-bold px-4 py-2 rounded-lg text-sm flex items-center gap-2"><i class="fab fa-github"></i> View Repository</a>
             </div>
-            <p class="text-slate-300">IoT collar system with real-time GPS tracking, polygon geofencing using ray-casting algorithm, and six-state cattle activity classification.</p>
-            <div class="flex flex-wrap gap-2 pt-2">
-                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">ESP8266</span>
-                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">Flutter</span>
-                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">NEO-6M GPS</span>
-                <span class="bg-slate-800 text-slate-300 text-xs px-3 py-1 rounded-md">MPU6050</span>
+
+            <!-- Profile Image in Circle Container -->
+            <div class="relative w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-800 border-4 border-gray-700 overflow-hidden shadow-2xl flex-shrink-0">
+                <img src="profile.jpg" alt="Balachandren Divaranan" class="w-full h-full object-cover">
             </div>
         </div>
-    </section>
+    </header>
 
-    <!-- EDUCATION -->
-    <section>
-        <h2 class="text-2xl font-bold mb-6 flex items-center gap-2"><i class="fas fa-graduation-cap accent-text"></i> Education</h2>
-        <div class="card-bg p-6 rounded-2xl">
-            <h3 class="font-bold text-lg">Higher National Diploma in IT (HNDIT)</h3>
-            <p class="text-slate-400">SLIATE Trincomalee Campus (2023 – Present)</p>
-        </div>
-    </section>
+    <main class="max-w-6xl mx-auto px-6 md:px-16 py-12 space-y-16">
 
-    <!-- CONTACT -->
-    <footer class="text-center py-8 border-t border-slate-700 text-slate-400 text-sm">
-        <p>📍 Trincomalee, Sri Lanka | 📞 +94 78 795 9526</p>
+        <!-- ABOUT ME SECTION -->
+        <section class="space-y-4">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-green-500 pl-4">| About Me</h2>
+            <p class="text-gray-300 leading-relaxed bg-[#111827] p-6 rounded-xl border border-gray-800">
+                Built a complete embedded systems project end-to-end, from Arduino firmware to a production-quality Flutter Android app. Currently pursuing my Higher National Diploma in Information Technology (HNDIT) at SLIATE Trincomalee Campus (2nd Year).
+            </p>
+        </section>
+
+        <!-- TECHNICAL SKILLS SECTION -->
+        <section class="space-y-6">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-green-500 pl-4">| Technical Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="card-dark card-dark-hover p-6 rounded-xl space-y-3">
+                    <i class="fas fa-code text-3xl accent-green"></i>
+                    <h3 class="font-bold text-xl">Programming Languages</h3>
+                    <p class="text-gray-400 text-sm">Arduino / C++, Python, Dart (Flutter), JavaScript</p>
+                </div>
+                <div class="card-dark card-dark-hover p-6 rounded-xl space-y-3">
+                    <i class="fas fa-globe text-3xl accent-green"></i>
+                    <h3 class="font-bold text-xl">Web Technologies</h3>
+                    <p class="text-gray-400 text-sm">HTML5 & CSS3</p>
+                </div>
+                <div class="card-dark card-dark-hover p-6 rounded-xl space-y-3">
+                    <i class="fas fa-tools text-3xl accent-green"></i>
+                    <h3 class="font-bold text-xl">Tools & Databases</h3>
+                    <p class="text-gray-400 text-sm">MySQL, Unity (Game Dev), Figma (UI/UX), Git, ThingSpeak Cloud</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section class="space-y-6">
+            <h2 class="text-2xl md:text-3xl font-bold border-l-4 border-green-500 pl-4">| Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Project 1 -->
+                <div class="card-dark card-dark-hover p-6 rounded-xl space-y-4">
+                    <div class="flex justify-between items-start">
+                        <h3 class="text-xl font-bold text-white">SmartHerd — Smart Livestock Collar System</h3>
+                        <span class="bg-green-900/50 text-green-400 text-xs font-semibold px-2.5 py-1 rounded">Final Year Project</span>
+                    </div>
+                    <p class="text-sm text-gray-400">Platform: Embedded Hardware (ESP8266) & Android App ("ZoneLock")</p>
+                    <ul class="text-sm text-gray-300 space-y-2 list-disc list-inside">
+                        <li>Real-time GPS tracking with Kalman-filtered position accuracy[cite: 1].</li>
+                        <li>Virtual polygon geofencing using ray-casting algorithm[cite: 1].</li>
+                        <li>Six-state animal activity classifier (Resting, Walking, Grazing, Panic, Distress, Immobile)[cite: 1].</li>
+                        <li>Offline-first data reliability with cloud sync and CSV export[cite: 1].</li>
+                    </ul>
+                    <a href="https://github.com/Divaranan/Virtual-Fence-Monitoring-System" target="_blank" class="inline-block accent-green text-sm font-semibold hover:underline">View Source Code <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card-dark card-dark-hover p-6 rounded-xl space-y-4">
+                    <h3 class="text-xl font-bold text-white">Garbage Collection & Recycling Initiative</h3>
+                    <p class="text-sm text-gray-400">Platform: Concept Project</p>
+                    <p class="text-sm text-gray-300 leading-relaxed">
+                        A community waste-management concept separating wet and dry garbage, purchased from households and converted into fertilizer and decorative products, with data-tracking of volumes collected[cite: 1].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & CERTIFICATIONS -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-4">
+                <h2 class="text-2xl font-bold border-l-4 border-green-500 pl-4">| Education</h2>
+                <div class="card-dark p-6 rounded-xl space-y-2">
+                    <h3 class="font-bold text-lg">Higher National Diploma in Information Technology (HNDIT)</h3>
+                    <p class="text-gray-400 text-sm">SLIATE, Trincomalee Campus (Ongoing – 2nd Year)[cite: 1]</p>
+                    <p class="text-gray-500 text-xs">2023 – Present | Student ID: TRI/IT/2324/F/229[cite: 1]</p>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h2 class="text-2xl font-bold border-l-4 border-green-500 pl-4">| Certifications & Roles</h2>
+                <div class="card-dark p-6 rounded-xl space-y-2">
+                    <h3 class="font-bold text-lg">Student Representative</h3>
+                    <p class="text-gray-400 text-sm">College Society Committee[cite: 1]</p>
+                    <p class="text-gray-300 text-sm">• Certificate of Recognition – Media Team Participation[cite: 1]</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOFT SKILLS & LANGUAGES -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="space-y-4">
+                <h2 class="text-2xl font-bold border-l-4 border-green-500 pl-4">| Soft Skills</h2>
+                <div class="flex flex-wrap gap-2">
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg text-sm">Problem Solving[cite: 1]</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg text-sm">Teamwork[cite: 1]</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg text-sm">Adaptability[cite: 1]</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg text-sm">Fast Learner[cite: 1]</span>
+                    <span class="bg-gray-800 text-gray-300 px-4 py-2 rounded-lg text-sm">Communication[cite: 1]</span>
+                </div>
+            </div>
+
+            <div class="space-y-4">
+                <h2 class="text-2xl font-bold border-l-4 border-green-500 pl-4">| Languages</h2>
+                <div class="flex gap-4">
+                    <span class="card-dark px-4 py-2 rounded-lg text-sm font-semibold">Tamil[cite: 1]</span>
+                    <span class="card-dark px-4 py-2 rounded-lg text-sm font-semibold">English[cite: 1]</span>
+                    <span class="card-dark px-4 py-2 rounded-lg text-sm font-semibold">Sinhala[cite: 1]</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="card-dark p-8 rounded-2xl text-center space-y-4">
+            <h2 class="text-3xl font-bold accent-green">Get In Touch</h2>
+            <p class="text-gray-400">Feel free to reach out for internship or project opportunities!</p>
+            <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-300 pt-2">
+                <p><i class="fas fa-phone accent-green mr-2"></i> +94 78 795 9526[cite: 1]</p>
+                <p><i class="fas fa-envelope accent-green mr-2"></i> divaranan.a@gmail.com[cite: 1]</p>
+                <p><i class="fas fa-map-marker-alt accent-green mr-2"></i> Trincomalee, Sri Lanka[cite: 1]</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-6 border-t border-gray-800 text-gray-500 text-xs">
+        © Balachandren Divaranan. All CV details included[cite: 1].
     </footer>
 
 </body>
